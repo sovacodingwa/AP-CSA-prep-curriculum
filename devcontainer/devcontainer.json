@@ -1,0 +1,18 @@
+{
+  "name": "Java Student Workspace",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "files.autoSave": "onWindowChange",
+        "java.configuration.updateBuildConfiguration": "automatic"
+      },
+      "extensions": [
+        "ms-vsliveshare.vsliveshare",
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
